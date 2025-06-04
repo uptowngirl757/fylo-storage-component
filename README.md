@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/uptowngirl757/fylo-storage-component](https://github.com/uptowngirl757/fylo-storage-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://uptowngirl757.github.io/fylo-storage-component/](https://uptowngirl757.github.io/fylo-storage-component/)
 
 ## My process
 
