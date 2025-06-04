@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="storage-dashboard">
+      <section class="storage-dashboard__navigation">
+        <header class="storage-dashboard__header">
+          <img
+            src="./images/logo.svg"
+            alt="Fylo"
+            class="storage-dashboard__logo"
+          />
+        </header>
+        <div class="storage-dashboard__icon-display">
+          <ul class="icon-list">
+            <li class="icon-list__item">
+              <img
+                src="./images/icon-document.svg"
+                alt=""
+                class="icon-list__icon"
+              />
+            </li>
+            <li class="icon-list__item">
+              <img
+                src="./images/icon-folder.svg"
+                alt=""
+                class="icon-list__icon"
+              />
+            </li>
+            <li class="icon-list__item">
+              <img
+                src="./images/icon-upload.svg"
+                alt=""
+                class="icon-list__icon"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="storage-dashboard__info">
+        <div class="usage-summary">
+          <p class="usage-summary__text">
+            You've used <strong class="usage-summary__amount">815 GB</strong> of
+            your storage
+          </p>
+          <div
+            class="storage-meter"
+            role="progressbar"
+            aria-valuenow="815"
+            aria-valuemin="0"
+            aria-valuemax="1000"
+          >
+            <div class="storage-meter__bar">
+              <div class="storage-meter__progress"></div>
+            </div>
+            <div class="storage-meter__labels">
+              <span class="storage-meter__label storage-meter__label--start"
+                >0 GB</span
+              >
+              <span class="storage-meter__label storage-meter__label--end"
+                >1000 GB</span
+              >
+            </div>
+          </div>
+        </div>
+        <aside class="remaining-storage">
+          <p class="remaining-storage__text">
+            <span class="remaining-storage__text--highlight">185</span> GB Left
+          </p>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

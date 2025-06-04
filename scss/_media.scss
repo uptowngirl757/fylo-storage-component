@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .storage-dashboard {
+    width: 100%;
+    flex-direction: column;
+
+    &__navigation {
+      width: 100%;
+      //   align-self: stretch;
+    }
+    &__info {
+      width: 100%;
+      align-self: stretch;
+    }
+  }
+}
